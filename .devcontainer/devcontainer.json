@@ -1,0 +1,6 @@
+{
+  "postCreateCommand": "echo \"//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}\" > ~/.npmrc && npm install",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
